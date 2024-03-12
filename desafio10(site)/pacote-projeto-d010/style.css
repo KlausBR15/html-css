@@ -1,0 +1,251 @@
+@charset 'UTF-8';
+
+@import 'fontes/idroid.otf';
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #E9E6C3;
+    margin: 0;
+
+
+}
+
+#cachola {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(0deg, #195734 25%, #3CD782); 
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.342);
+
+}
+
+header > h1 {
+    display:inline-block;
+    width:100%;
+    font: normal 2em 'JetBrains Mono', times, sans-serif;
+    letter-spacing: -3px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+
+}
+
+header > p {
+    padding-bottom: 20px;
+    font: lighter 13pt Arial;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.651);
+}
+
+
+
+header > p, h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+div#opcao {
+    padding: 10px 0px 5px 30px;
+    box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.096);
+
+}
+
+
+#opcao > a {
+display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11pt;
+    padding: 5px 10px;
+}
+
+#opcao > a:hover {
+    background-color: #3CD782;
+    color:  #195734;
+    border-radius: 5px;
+    transition: 0.37s ease-in-out;
+}
+
+#opcao > a:active {
+    background-color: #195734;
+    color: #3CD782;
+    transition: none;
+}
+
+
+
+/*Talvez em outra hora eu arrumo melhor
+
+a:visited {
+    color: #43ff97;
+
+}
+*/
+
+
+main {
+    width: 70%;
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.267);
+    padding-top: 5px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+main > h1, h2 {
+    font: normal 1.4em 'idroid', times, sans-serif;
+    color:#195734
+    
+}
+main > h1, p, h2 {   
+        text-align: left;
+        padding: 0px 12px;
+        text-align: justify;
+        
+    }
+
+
+p {
+    text-indent: 34px;
+}
+
+header#cachola > p {
+    text-indent: none;
+}
+
+.especial {
+    margin-left: 20px;
+    padding-left: 4px;
+    font-size: 1.18em;
+    background-image: linear-gradient(90deg, #50c78362, white );
+}
+
+#robos {
+    height: 330px;
+}
+
+#dandroids {
+    margin: auto;
+    height: 330px;
+}
+
+#irina {
+    display: block;
+    width: 95%;
+    margin: auto;
+    height: 300px;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+}
+
+#bug {
+    margin-left: 34.8%;
+}
+
+iframe {
+    display: block;
+    margin-right: 1000px;
+    border: 0px solid  #0d3d23;
+    border-width: 49px;
+    border-top-width: 30px;
+    border-bottom-width: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+div#caixa {
+    margin: auto;
+    width: 950px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #40eb8dc4;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.349);
+}
+
+div#caixa > header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    background-color: #156339;
+    font: bold 13.5pt Arial, times, sans-serif;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+div#caixa > p, dl{
+    font: normal 12pt Arial;
+    margin-top: 15px;
+}
+
+#primeiro, #segundo {
+    display: inline-block;
+}
+#segundo {
+    margin-left: 200px;    
+}
+
+
+dd > a {
+    color: black
+}
+
+dd::before {
+    content: '✔ ';
+}
+
+#ultimo {
+    padding: 10px 0px;
+    height: 50px;
+    font: normal 11.7pt Arial, times, sans-serif;
+    text-indent: none;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: #0d3d23;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+footer > p {
+    text-align: center;
+    font-size: 11pt;
+
+}
+
+main > p > a {
+    text-decoration: none;
+    color: #0c3820;
+    font-weight: bold;
+}
+
+.sites {
+    text-decoration: none;
+    color:#0d4125;
+    font-weight: bold;
+    background-color: #40e68ab7;
+    padding: 3px;
+}
+
+.sites::after {
+    content: '🔗';
+}
+.sites:hover {
+    text-decoration: underline #268852;
+}
+

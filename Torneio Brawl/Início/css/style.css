@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+/*
+* {
+    margin: auto;
+    font-family: "Protest Strike";
+}
+*/
+
+div#prim {
+    text-align: center;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.973);
+    width: 350px;
+    height: 100px;
+    line-height:100px;
+    border-radius: 10px;
+}
+
+body {
+    color:rgb(255, 255, 255);
+    height: 100vh;
+    background: linear-gradient(100deg, rgb(7, 165, 41), rgb(7, 27, 141));
+}
+h1 {
+    font-family: "Protest Guerrilla";
+    
+}
